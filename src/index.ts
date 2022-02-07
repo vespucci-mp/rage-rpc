@@ -834,6 +834,19 @@ export function triggerBrowser(browser: Browser, name: string, args?: any) {
 	void _callBrowser(browser, TRIGGER_EVENT, [name, args], { noRet: 1 });
 }
 
+/**
+ * Send a response with a status code and a payload
+ * @param {200 | 400 | 404 | 409 | 500} statusCode - The status code to return to the client.
+ * @param {any} payload - The payload of the response.
+ * @returns A JSON object with a status code and a payload.
+ */
+export function sendInterpetedResponse(statusCode: 200 | 400 | 404 | 409 | 500, payload: any) {
+	return {
+		statusCode,
+		payload: payload === undefined ? `Payload was undefined` : payload
+	};
+}
+
 export { setDebugMode };
 
 // eslint-disable-next-line @typescript-eslint/no-inferrable-types
