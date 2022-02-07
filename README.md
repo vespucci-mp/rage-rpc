@@ -48,19 +48,19 @@ This is pretty much what everybody has learned to deal with, until now. `rage-rp
 
 #### Option 1
 
-You can install via [github](https://github.com/LeonardSSH/rage-rpc)
+You can install via [github](https://github.com/vespucci-mp/rage-rpc)
 
-> Use `github:leonardssh/rage-rpc#build` to latest build
+> Use `github:vespucci-mp/rage-rpc#build` to latest build
 
 ```bash
 # With npm
-npm i github:leonardssh/rage-rpc#v0.2.5
+npm i github:vespucci-mp/rage-rpc#v0.2.5
 
 # With yarn
-yarn add github:leonardssh/rage-rpc#v0.2.5
+yarn add github:vespucci-mp/rage-rpc#v0.2.5
 
 # With pnpm
-pnpm add github:leonardssh/rage-rpc#v0.2.5
+pnpm add github:vespucci-mp/rage-rpc#v0.2.5
 ```
 
 From here, you can simply require the package in any RAGE context:

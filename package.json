@@ -27,14 +27,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/leonardssh/rage-rpc.git"
+		"url": "git+https://github.com/vespucci-mp/rage-rpc.git"
 	},
 	"author": "LeonardSSH",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/leonardssh/rage-rpc/issues"
+		"url": "https://github.com/vespucci-mp/rage-rpc/issues"
 	},
-	"homepage": "https://github.com/leonardssh/rage-rpc#readme",
+	"homepage": "https://github.com/vespucci-mp/rage-rpc#readme",
 	"devDependencies": {
 		"@commitlint/cli": "^15.0.0",
 		"@commitlint/config-conventional": "^15.0.0",
