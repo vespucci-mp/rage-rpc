@@ -174,6 +174,14 @@ export declare function triggerServer(name: string, args?: any): void;
  */
 export declare function unregister(name: string): void;
 
+/**
+ * Send a response with a status code and a payload
+ * @param {200 | 400 | 404 | 409 | 500} statusCode - The status code to return to the client.
+ * @param {any} payload - The payload of the response.
+ * @returns A JSON object with a status code and a payload.
+ */
+export declare function sendInterpetedResponse(statusCode: 200 | 400 | 404 | 409 | 500, payload: any): void;
+
 export declare const version: string;
 
 export {};
