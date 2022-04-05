@@ -5,7 +5,7 @@ export type ProcedureListener = (args: any, info: ProcedureListenerInfo) => any;
 export interface ProcedureListenerInfo<T = any, K = any> {
 	environment: string;
 	id?: string;
-	player?: T;
+	player: T;
 	browser?: K;
 }
 
